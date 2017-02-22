@@ -93,7 +93,8 @@ echo ${i}
 - Variables
   - None Necessary Really 
   - But say that: "No Variables Necessary"
-
+- Comment out evverything other than the database making and the final code that runs 
+- Add comments to everything to make it understandable in six months
 
 
 
