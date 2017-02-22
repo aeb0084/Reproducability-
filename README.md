@@ -1,27 +1,27 @@
 # Reproducability-Stephen's Guest Lecture
 
 ###Anatomy of a script
--Recommended #! /usr/bin/env sh as the commadn line   
-  -It works everywhere   
--Module block  
--Variable block  
--Commands   
+- Recommended #! /usr/bin/env sh as the commadn line   
+  - It works everywhere   
+- Module block  
+- Variable block  
+- Commands   
 
 ###Environmental Variables 
--Used by more than one application 
-  -$HOME, $PATH, $SHELL
+- Used by more than one application 
+  - $HOME, $PATH, $SHELL
 ###User Defined Variable 
--Defined by you 
-  -can be anything; try not to use the environmental variables  
-  -should be indicitive of what it stores; no special characters (underscrores work best)
+- Defined by you 
+  - can be anything; try not to use the environmental variables  
+  - should be indicitive of what it stores; no special characters (underscrores work best)
 
 ###Setting Variables 
--can do it directly 
-  -example: wd=$(HOME)/analysis_directory
--Setting them dynamically 
-  -capture the output of the shell command 
-  -files=(`ls $(input_dir) |grep sh$` )
-    -looks for any file ending in sh
+- can do it directly 
+  - example: wd=$(HOME)/analysis_directory
+- Setting them dynamically 
+  - capture the output of the shell command 
+  - files=(`ls $(input_dir) |grep sh$` )
+    - looks for any file ending in sh
 
 ###Script to fix wrong file endings from .sh to .pl Example
 ```ruby
