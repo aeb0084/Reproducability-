@@ -87,12 +87,12 @@ echo ${i}
 ```
 ###For our Exercise
 
--modules 
-  -blastn
+- modules 
+  - blastn
   
--Variables
-  -None Necessary Really 
-  -But say that: "No Variables Necessary"
+- Variables
+  - None Necessary Really 
+  - But say that: "No Variables Necessary"
 
 
 
