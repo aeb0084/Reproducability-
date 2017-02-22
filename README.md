@@ -1,11 +1,11 @@
 # Reproducability-Stephen's Guest Lecture
 
 ###Anatomy of a script
--Recommended #! /usr/bin/env sh as the commadn line 
-  -It works everywhere 
--Module block
--Variable block
--Commands 
+-Recommended #! /usr/bin/env sh as the commadn line   
+  -It works everywhere   
+-Module block  
+-Variable block  
+-Commands   
 
 ###Environmental Variables 
 -Used by more than one application 
